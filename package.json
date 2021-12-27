@@ -1,0 +1,30 @@
+{
+	"name": "api-boilerplate",
+	"version": "1.0.0",
+	"engines": {
+		"node": "16.8.0",
+		"npm": "8.1.1"
+	},
+	"description": "Blog app",
+	"main": "index.js",
+	"scripts": {
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@sendgrid/mail": "^7.6.0",
+		"bad-words": "^3.0.4",
+		"bcrypt": "^5.0.1",
+		"cloudinary": "^1.27.1",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"express-async-handler": "^1.2.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.0.12",
+		"multer": "^1.4.3"
+	}
+}
